@@ -1,0 +1,160 @@
+body{margin:0px}
+
+  .t2{
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+	margin:0px;
+	
+}
+ 
+.main{display:flex;
+}
+
+
+.left1{flex:70%;
+	   
+}
+
+.right1{flex:30%;
+		background-color:#14140d;
+}
+
+.right1 h3{color:white;
+		text-align:center;
+		
+}
+.right1 p{text-align:justify;
+		color:white;
+		padding-left:10px;
+		padding-right:10px;	
+}
+
+
+ 
+.dis
+		{background-color:#06032e;
+		color:white;
+		padding-top:30px;
+		padding-bottom:20px;
+		padding:left;
+		text-align:left;
+        padding-left:150px;
+    }
+  
+
+
+
+
+.head_1 {background-color:#06032e;
+		color:yellow;
+		text-align:center;
+		padding-top:10px;
+		padding-bottom:20px;
+		letter-spacing:0.5rem;
+		font-size: 1.2rem;
+	    
+	
+}
+	
+.container{
+		width:100%;
+		position:absolute;
+		top:0px;
+		margin-right:auto;
+		margin-left: 0px;
+		background-color:black;
+
+}
+	
+	
+ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: #333;
+}
+
+li {
+		float:left;
+}
+
+li a {
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		transition:0.8s;
+}
+
+li a:hover:not(.active) {
+		background-color: #0fdbfa;
+}
+
+.active {
+		background-color:#020317;}
+		
+
+
+
+
+
+.slider
+{  	width:800px;
+	height:450px;
+	background:url(2.jpg);
+	margin:50px auto;
+	animation: slide 20s infinite;
+	border:20px;
+	box-shadow:2px 2px 5px 5px white;
+	background-color:black;
+}
+@keyframes slide{
+   25%{
+ background:url(1.jpg);  
+   } 
+   50%{
+background:url(3.jpg);	  
+   }
+  75%{
+background:url(4.jpg);	
+   } 
+
+   100%{
+background:url(5.jpg);	
+   } 
+
+
+
+  
+.diss{	display:flex;
+     }
+
+
+
+.logo{	flex:30%;
+	 } 
+	 
+	 
+.web{
+		flex:70%;
+	}
+
+
+.color1{
+		padding-top:10px;
+		padding-bottom:10px;
+		background-color:#fffb82;
+}
+
+  
+  
+
+  
+  
+  
+  
+  .t2
+	
