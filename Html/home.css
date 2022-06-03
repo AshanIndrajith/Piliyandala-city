@@ -104,7 +104,7 @@ li a:hover:not(.active) {
 .slider
 {  	width:800px;
 	height:450px;
-	background:url(2.jpg);
+	background:url(slider/5.jpg);
 	margin:50px auto;
 	animation: slide 20s infinite;
 	border:20px;
@@ -113,17 +113,17 @@ li a:hover:not(.active) {
 }
 @keyframes slide{
    25%{
- background:url(1.jpg);  
+ background:url(slider/1.jpg);  
    } 
    50%{
-background:url(3.jpg);	  
+background:url(slider/2.jpg);	  
    }
   75%{
-background:url(4.jpg);	
+background:url(slider/3.jpg);	
    } 
 
    100%{
-background:url(5.jpg);	
+background:url(slider/4.jpg);	
    } 
 
 
